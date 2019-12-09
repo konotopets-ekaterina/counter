@@ -1,0 +1,36 @@
+.content-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.wrapper__content-elements {
+  width: 100%;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ padding: 100px 0 50px;
+}
+.counter__element-content span {
+  font-weight: 300;
+  font-style: normal;
+  font-size: 90px;
+  letter-spacing: 0.05em;
+  color:rgb(13, 156, 252);
+}
+.counter__text span {
+  font-size: 24px;
+  line-height: 2em;
+  font-weight: 300;
+  color:rgb(119, 121, 129);
+}
+.counter__element {
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .counter__element {
+    max-width: 100%;
+  }
+}
